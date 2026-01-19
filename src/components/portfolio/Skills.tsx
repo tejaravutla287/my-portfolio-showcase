@@ -12,7 +12,7 @@ const skills = [
   {
     icon: Database,
     title: "Backend Development",
-    description: "Node.js, Python, PostgreSQL, MongoDB, and RESTful APIs.",
+    description: "Python, Django, PostgreSQL, MySQL, and FastAPI.",
   },
   {
     icon: Palette,

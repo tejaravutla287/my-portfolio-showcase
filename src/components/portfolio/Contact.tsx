@@ -44,7 +44,7 @@ const Contact = () => {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Email</div>
-                <div className="font-medium">hello@alexchen.dev</div>
+                <div className="font-medium">tejaravutla287@gmail.com</div>
               </div>
             </div>
 
@@ -54,25 +54,25 @@ const Contact = () => {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Location</div>
-                <div className="font-medium">San Francisco, CA</div>
+                <div className="font-medium">Chilakaluripet [palanadu] AP india</div>
               </div>
             </div>
 
             <div className="flex gap-4 pt-4">
               <a
-                href="#"
+                href="https://github.com/tejaravutla287"
                 className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/teja-ravutla-7672t/"
                 className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://x.com/bhanu_ravutla"
                 className="w-12 h-12 rounded-lg bg-secondary flex items-center justify-center hover:bg-primary/20 hover:text-primary transition-colors"
               >
                 <Twitter className="w-5 h-5" />

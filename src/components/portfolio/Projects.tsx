@@ -5,28 +5,33 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce solution with seamless checkout experience and real-time inventory management.",
-    tags: ["React", "Node.js", "Stripe", "MongoDB"],
+    title: "Doctor Appointment Booking",
+    description: "A full-stack web application for booking doctor appointments with real-time availability and notifications.",
+    tags: ["Python", "Django", "PostgreSQL", "HTML/CSS"],
     color: "from-primary/20 to-blue-500/20",
   },
   {
-    title: "Analytics Dashboard",
+    title: "SoulemateConnect matrimonial site ",
     description: "Interactive data visualization platform for business intelligence and performance tracking.",
     tags: ["TypeScript", "D3.js", "PostgreSQL", "GraphQL"],
     color: "from-emerald-500/20 to-primary/20",
+    github: "https://github.com/tejaravutla287/soulmate-connect",
+    demo: "https://ravutlabhanuteja.pythonanywhere.com",
+    image: "/soulemate-screenshot copy.png",
   },
   {
-    title: "Social Media App",
-    description: "Feature-rich social platform with real-time messaging, stories, and content sharing.",
-    tags: ["React Native", "Firebase", "Redux", "WebSocket"],
+    title: "Resume shorting web app",
+    description: "a web application that automates the resume screening process using mechine learning algorithms.",
+    tags: ["Python", "Machine Learning", "Django" ],
     color: "from-orange-500/20 to-pink-500/20",
   },
   {
-    title: "AI Content Generator",
-    description: "Smart content creation tool powered by machine learning for marketing teams.",
+    title: "inventory management system",
+    description: "a web application for managing inventory with real-time updates and analytics.",
     tags: ["Python", "OpenAI", "FastAPI", "React"],
     color: "from-violet-500/20 to-primary/20",
+    github: "https://github.com/tejaravutla287/Inventory-manager",
+    image: "/inventory manager.png",
   },
 ];
 
@@ -44,7 +49,14 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
     >
       {/* Project preview */}
       <div className={`aspect-video bg-gradient-to-br ${project.color} p-8 flex items-center justify-center`}>
-        <div className="w-full h-full rounded-lg bg-background/50 backdrop-blur-sm border border-border/50" />
+        {project.image ? (
+          <img
+            src={project.image}
+            className="w-full h-full object-cover rounded-lg border border-border/50"
+          />
+        ) : (
+          <div className="w-full h-full rounded-lg bg-background/50 backdrop-blur-sm border border-border/50" />
+        )}
       </div>
 
       {/* Content */}
@@ -54,12 +66,16 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
             {project.title}
           </h3>
           <div className="flex gap-2">
-            <button className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
-              <Github className="w-4 h-4" />
-            </button>
-            <button className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
-              <ExternalLink className="w-4 h-4" />
-            </button>
+            {project.github && (
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
+                <Github className="w-4 h-4" />
+              </a>
+            )}
+            {project.demo && (
+              <a href={project.demo} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-secondary/50 hover:bg-secondary transition-colors">
+                <ExternalLink className="w-4 h-4" />
+              </a>
+            )}
           </div>
         </div>
         <p className="text-muted-foreground text-sm mb-4 line-clamp-2">

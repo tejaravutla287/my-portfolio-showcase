@@ -15,24 +15,9 @@ const skills = [
     description: "Python, Django, PostgreSQL, MySQL, and FastAPI.",
   },
   {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "Figma, Adobe XD, prototyping, and design systems.",
-  },
-  {
-    icon: Smartphone,
-    title: "Mobile Development",
-    description: "React Native, Flutter, and cross-platform solutions.",
-  },
-  {
     icon: Globe,
-    title: "Cloud & DevOps",
-    description: "AWS, Docker, CI/CD pipelines, and serverless architecture.",
-  },
-  {
-    icon: Zap,
-    title: "Performance",
-    description: "Optimization, accessibility, SEO, and web vitals.",
+    title: "Networking",
+    description: "TCP/IP, DNS, HTTP protocols, and network security.",
   },
 ];
 

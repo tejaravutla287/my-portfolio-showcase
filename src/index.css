@@ -50,6 +50,44 @@
 }
 
 @layer base {
+  .dark {
+    --background: 220 20% 6%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 200 90% 50%;
+    --primary-foreground: 220 20% 6%;
+
+    --secondary: 220 15% 18%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 200 90% 50%;
+    --accent-foreground: 220 20% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 200 90% 50%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(200, 90%, 50%) 0%, hsl(180, 80%, 55%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(220, 20%, 6%) 0%, hsl(220, 18%, 10%) 100%);
+    --gradient-glow: radial-gradient(circle at center, hsl(200, 90%, 50%, 0.15) 0%, transparent 70%);
+    --shadow-glow: 0 0 60px hsl(200, 90%, 50%, 0.2);
+    --shadow-card: 0 4px 24px hsl(0, 0%, 0%, 0.4);
+  }
+}
+
+@layer base {
   * {
     @apply border-border;
   }

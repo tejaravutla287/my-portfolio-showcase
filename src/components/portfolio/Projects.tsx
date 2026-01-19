@@ -5,25 +5,13 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Doctor Appointment Booking",
-    description: "A full-stack web application for booking doctor appointments with real-time availability and notifications.",
-    tags: ["Python", "Django", "PostgreSQL", "HTML/CSS"],
-    color: "from-primary/20 to-blue-500/20",
-  },
-  {
     title: "SoulemateConnect matrimonial site ",
     description: "Interactive data visualization platform for business intelligence and performance tracking.",
-    tags: ["TypeScript", "D3.js", "PostgreSQL", "GraphQL"],
+    tags: ["Python", "Django", "MySQL", "HTML/CSS","jinja"],
     color: "from-emerald-500/20 to-primary/20",
     github: "https://github.com/tejaravutla287/soulmate-connect",
     demo: "https://ravutlabhanuteja.pythonanywhere.com",
     image: "/soulemate-screenshot copy.png",
-  },
-  {
-    title: "Resume shorting web app",
-    description: "a web application that automates the resume screening process using mechine learning algorithms.",
-    tags: ["Python", "Machine Learning", "Django" ],
-    color: "from-orange-500/20 to-pink-500/20",
   },
   {
     title: "inventory management system",
@@ -32,6 +20,18 @@ const projects = [
     color: "from-violet-500/20 to-primary/20",
     github: "https://github.com/tejaravutla287/Inventory-manager",
     image: "/inventory manager.png",
+  },
+  {
+    title: "Doctor Appointment Booking",
+    description: "A full-stack web application for booking doctor appointments with real-time availability and notifications.",
+    tags: ["Python", "Django", "PostgreSQL", "HTML/CSS","jinja"],
+    color: "from-primary/20 to-blue-500/20",
+  },
+  {
+    title: "Resume shorting web app",
+    description: "a web application that automates the resume screening process using mechine learning algorithms.",
+    tags: ["Python", "Machine Learning", "Django","PostgreSQL","HTML/CSS"],
+    color: "from-orange-500/20 to-pink-500/20",
   },
 ];
 

@@ -71,3 +71,28 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## Contact Form Setup (EmailJS)
+
+The contact form uses EmailJS to send emails. To make it functional:
+
+1. **Create an EmailJS account** at [https://www.emailjs.com/](https://www.emailjs.com/)
+
+2. **Set up a service** (Gmail, Outlook, etc.) in your EmailJS dashboard
+
+3. **Create an email template** with these variables:
+   - `{{from_name}}` - Sender's name
+   - `{{from_email}}` - Sender's email
+   - `{{message}}` - Message content
+   - `{{to_email}}` - Your email (tejaravutla287@gmail.com)
+
+4. **Update the `.env` file** with your EmailJS credentials:
+   ```
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
+   ```
+
+5. **Restart the development server** after updating the `.env` file
+
+The contact form will now send emails to tejaravutla287@gmail.com when users submit the form.

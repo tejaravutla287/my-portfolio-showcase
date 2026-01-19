@@ -38,8 +38,8 @@ const Navbar = () => {
   }} className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/80 backdrop-blur-lg border-b border-border" : "bg-transparent"}`}>
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold font-display">
-          <span className="text-gradient">B</span>
+        <a href="https://www.linkedin.com/in/teja-ravutla-7672t/" className="text-xl font-bold font-display">
+          <span className="text-gradient">Bhanu Teja</span>
         </a>
 
         {/* Desktop Nav */}

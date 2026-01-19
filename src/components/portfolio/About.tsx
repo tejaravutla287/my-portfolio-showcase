@@ -21,9 +21,10 @@ const About = () => {
           {/* Image/Visual */}
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden card-elevated">
-              <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary flex items-center justify-center">
-                <div className="w-32 h-32 rounded-full bg-primary/30 animate-float" />
-              </div>
+              <img
+                src="/WhatsAppProfile1.jpeg"
+                className="w-full h-full object-cover"
+              />
             </div>
             {/* Decorative element */}
             <div className="absolute -bottom-6 -right-6 w-24 h-24 rounded-xl bg-primary/20 blur-2xl" />

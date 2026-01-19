@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Database, Globe, BotMessageSquare } from "lucide-react";
+import { Code2, Database, Globe, BotMessageSquare, MessageSquareCode } from "lucide-react";
 
 const skills = [
   {
@@ -21,6 +21,11 @@ const skills = [
   },
   {
     icon: BotMessageSquare,
+    title: "ML Agent Development",
+    description: "NLTK, spaCy, TensorFlow, PyTorch",
+  },
+  {
+    icon: MessageSquareCode,
     title: "Prompt Engineering",
     description: "Advanced prompting (CoT, Few-Shot), AI agent workflows, and model fine-tuning for LLMs.",
   },

@@ -47,10 +47,6 @@
     --font-body: 'Inter', sans-serif;
   }
 
-  .dark {
-    --background: 220 20% 8%;
-    --foreground: 210 20% 98%;
-  }
 }
 
 @layer base {

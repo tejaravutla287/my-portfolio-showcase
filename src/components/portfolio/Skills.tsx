@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code2, Palette, Database, Smartphone, Globe, Zap } from "lucide-react";
+import { Code2, Database, Globe, BotMessageSquare } from "lucide-react";
 
 const skills = [
   {
@@ -18,6 +18,11 @@ const skills = [
     icon: Globe,
     title: "Networking",
     description: "TCP/IP, DNS, HTTP protocols, and network security.",
+  },
+  {
+    icon: BotMessageSquare,
+    title: "Prompt Engineering",
+    description: "Advanced prompting (CoT, Few-Shot), AI agent workflows, and model fine-tuning for LLMs.",
   },
 ];
 

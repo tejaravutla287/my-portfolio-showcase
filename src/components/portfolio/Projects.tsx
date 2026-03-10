@@ -11,7 +11,7 @@ const projects = [
     color: "from-emerald-500/20 to-primary/20",
     github: "https://github.com/tejaravutla287/soulmate-connect",
     demo: "https://ravutlabhanuteja.pythonanywhere.com",
-    image: "/soulemate-screenshot copy.png",
+    image: "/soulemate-screenshot.png",
   },
   {
     title: "inventory management system",
@@ -19,7 +19,7 @@ const projects = [
     tags: ["Python", "OpenAI", "FastAPI", "React"],
     color: "from-violet-500/20 to-primary/20",
     github: "https://github.com/tejaravutla287/Inventory-manager",
-    image: "/inventory manager.png",
+    image: "/inventory-manager.png",
   },
   {
     title: "Doctor Appointment Booking",

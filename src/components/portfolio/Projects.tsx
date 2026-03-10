@@ -19,7 +19,7 @@ const projects = [
     tags: ["Python", "OpenAI", "FastAPI", "React"],
     color: "from-violet-500/20 to-primary/20",
     github: "https://github.com/tejaravutla287/Inventory-manager",
-    image: "/inventory manager.png",
+    image: "/inventory-manager.png",
   },
   {
     title: "Doctor Appointment Booking",

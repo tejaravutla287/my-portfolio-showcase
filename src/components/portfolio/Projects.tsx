@@ -26,6 +26,7 @@ const projects = [
     description: "A full-stack web application for booking doctor appointments with real-time availability and notifications.",
     tags: ["Python", "Django", "PostgreSQL", "HTML/CSS","jinja"],
     color: "from-primary/20 to-blue-500/20",
+    image: "/doctor-appointment.png",
   },
   {
     title: "Resume shorting web app",
